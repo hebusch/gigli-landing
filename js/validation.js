@@ -12,8 +12,28 @@
             event.preventDefault()
             event.stopPropagation()
           }
-  
-          form.classList.add('was-validated')
+
+          if (form.checkValidity()) {
+            event.preventDefault();
+
+            let name = $("#name").val();
+            let mail = $("#mail").val();
+            let phone = $("#phone").val();
+            let restaurant = $("#restaurant").val();
+            let msg = $("#msg").val();
+
+            form.classList.remove('was-validated');
+            $.ajax({
+              url : 'mailer/mailer.php',
+              type : 'post',
+              data : {name:name, mail:mail, phone:phone, restaurant:restaurant, msg:msg},
+              cache: false,
+              success: function (data) {
+                  console.log(data);
+                }
+            });
+            document.getElementById("notif").style.display="block";
+          }
         }, false)
       })
   })()

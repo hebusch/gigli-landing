@@ -11614,3 +11614,8 @@ body.modal-open {
   background-color: #02612c;
   border-color: #02612c;
 }
+
+#notif {
+  color: green;
+  display: none;
+}

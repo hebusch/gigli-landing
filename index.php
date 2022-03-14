@@ -52,7 +52,7 @@
     </div>
     <!-- Modal -->
     <div class="modal fade" id="formModal" aria-labelledby="formModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-dialog">
             <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Solicitar Reserva</h5>
@@ -62,21 +62,30 @@
             <div class="modal-body">                
                     <div class="mb-3">
                         <label for="name" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="name" required>
+                        <input type="text" class="form-control" id="name" name="name" required>
                     </div>
                     <div class="mb-3">
                         <label for="phone" class="form-label">Teléfono</label>
-                        <input type="text" class="form-control" id="phone" required>
+                        <input type="text" class="form-control" id="phone" name="phone" required>
                     </div>
                     <div class="mb-3">
                         <label for="mail" class="form-label">Correo</label>
-                        <input type="text" class="form-control" id="mail">
+                        <input type="text" class="form-control" id="mail" name="mail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="restaurant" class="form-label">Local</label>
+                        <select name="restaurant" id="restaurant" class="form-select" required>
+                            <option value="Bar Alonso">Bar Alonso</option>
+                            <option value="Tinos Bar">Tino's Bar</option>
+                            <option value="Palacio Chorrillana">Palacio de la Chorrillana</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="msg" class="form-label">Solicitud</label>
-                        <textarea name="msg" id="msg" cols="30" rows="3" class="form-control"></textarea>
+                        <textarea name="msg" id="msg" cols="30" rows="3" class="form-control" required></textarea>
                     </div>
             </div>
+            <div id="notif">Tu mensaje ha sido enviado con éxito!</div>
             <div class="modal-footer">
                 <button type="submit" class="btn btn-green">Enviar Solicitud</button>
             </div>
@@ -138,7 +147,7 @@
             <div class="row g-0">
                 <div class="col-lg-6 text-white showcase-img reveal-left" style="background-image: url('assets/img/tinosbar.png')"></div>
                 <div class="col-lg-6 my-auto showcase-text reveal-right">
-                    <h2>Tinos Bar</h2>
+                    <h2>Tino's Bar</h2>
                     <p class="lead mb-0">
                         El mejor y más completo bar del barrio bellavista.
                         <br><br>
