@@ -136,7 +136,7 @@
                 </div>
             </div>
             <div class="row g-0">
-                <div class="col-lg-6 text-white showcase-img reveal-left" style="background-image: url('assets/img/tinosbar.jpeg')"></div>
+                <div class="col-lg-6 text-white showcase-img reveal-left" style="background-image: url('assets/img/tinosbar.png')"></div>
                 <div class="col-lg-6 my-auto showcase-text reveal-right">
                     <h2>Tinos Bar</h2>
                     <p class="lead mb-0">
@@ -176,25 +176,28 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 reveal-left">
-                        <img class="img-fluid rounded-circle mb-3" src="assets/img/no-image.png" alt="..." />
-                        <h5>Nombre Apellido</h5>
-                        <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <img class="img-fluid rounded-circle mb-3" src="assets/img/jiescobedo.jpeg" alt="..." />
+                        <h5>José Ignacio Escobedo</h5>
+                        <p class="font-weight-light mb-0">
+                            Marketing, RRSS e Innovación
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 reveal">
-                        <img class="img-fluid rounded-circle mb-3" src="assets/img/no-image.png" alt="..." />
-                        <h5>Nombre Apellido</h5>
-                        <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <img class="img-fluid rounded-circle mb-3" src="assets/img/sgigli.jpeg" alt="..." />
+                        <h5>Sebastián Gigli Browne</h5>
+                        <p class="font-weight-light mb-0">
+                            Ventas, Proveedores y Servicio al Cliente
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0 reveal-right">
-                        <img class="img-fluid rounded-circle mb-3" src="assets/img/no-image.png" alt="..." />
-                        <h5>Nombre Apellido</h5>
-                        <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <img class="img-fluid rounded-circle mb-3" src="assets/img/mchomali.jpeg" alt="..." />
+                        <h5>Matías Chomalí</h5>
+                        <p class="font-weight-light mb-0">
+                            Administración y Finanzas
                         </p>
                     </div>
                 </div>
@@ -244,7 +247,7 @@
                             <a href="#!"><i class="bi-twitter fs-3"></i></a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                            <a href="https://www.instagram.com/skipeatcl/"><i class="bi-instagram fs-3"></i></a>
                         </li>
                     </ul>
                 </div>
