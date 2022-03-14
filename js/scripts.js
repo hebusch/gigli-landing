@@ -18,7 +18,7 @@ function initScrollReveal(){
         },
     });
     ScrollReveal().reveal('.reveal-left', {
-        delay:500,
+        delay:600,
         viewOffset: {
             bottom: 20,
         },

@@ -11413,7 +11413,6 @@ footer.footer {
   background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url(../assets/img/banner.jpg);
   background-size: cover;
   background-position: 0px;
-  
 }
 
 .bg-none{
@@ -11558,7 +11557,7 @@ footer.footer {
   display:flex;
   width:100%;
   margin-top:20px;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .proyect-title{
@@ -11590,4 +11589,28 @@ footer.footer {
 
 .green-color{
   color: #007f38;
+}
+
+.orange-color{
+  color: #fd6f16;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.modal textarea{
+  resize: none;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #007f38;
+  border-color: #007f38;
+}
+
+.btn-green:hover {
+  color: #fff;
+  background-color: #02612c;
+  border-color: #02612c;
 }
