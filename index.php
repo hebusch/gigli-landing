@@ -129,7 +129,9 @@
     <section class="showcase" id="chatbot">
         <div class="container-fluid p-0">
             <div class="row g-0">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img reveal-right" style="background-image: url('assets/img/baralonso.jpeg')"></div>
+                <div class="col-lg-6 order-lg-2 bar-image reveal-right">
+                        <img src="assets/img/baralonso.jpeg" alt="" class="img-fluid">
+                </div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text reveal-left">
                     <h2>Bar Alonso</h2>
                     <p class="lead mb-0">
@@ -145,7 +147,9 @@
                 </div>
             </div>
             <div class="row g-0">
-                <div class="col-lg-6 text-white showcase-img reveal-left" style="background-image: url('assets/img/tinosbar.png')"></div>
+                <div class="col-lg-6 bar-image reveal-left">
+                    <img src="assets/img/tinosbar.png" alt="" class="img-fluid">
+                </div>
                 <div class="col-lg-6 my-auto showcase-text reveal-right">
                     <h2>Tino's Bar</h2>
                     <p class="lead mb-0">
@@ -161,8 +165,10 @@
                 </div>
             </div>
             <div class="row g-0">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img reveal-right" style="background-image: url('assets/img/palaciochorrillana.jpeg')"></div>
-                <div class="col-lg-6 order-lg-1 my-auto showcase-text reveal-left">
+                    <div class="col-lg-6 order-lg-2 bar-image reveal-right">
+                        <img src="assets/img/palaciochorrillana.jpeg" alt="" class="img-fluid">
+                    </div>                
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text reveal-left">
                     <h2>Palacio de la Chorrillana</h2>
                     <p class="lead mb-0">
                         Tradicion Chilena, las mejores chorrillanas, entre ellas vegetarianas, del mar y con carne mechada.
@@ -235,6 +241,18 @@
                         <div class="row">
                             <div class="col-2">
                                 <div class="contact-item">
+                                    <i class="bi bi-telephone"></i>
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <div class="contact-item">
+                                    <a href="tel:222497260">2 22497260</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="contact-item">
                                     <i class="bi bi-envelope"></i>
                                 </div>
                             </div>
@@ -250,7 +268,7 @@
                     <p class="text-white"><b>Nuestras Redes Sociales</b></p>
                     <ul class="list-inline mb-0 contact-rrss">
                         <li class="list-inline-item me-4">
-                            <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100065894292603"><i class="bi-facebook fs-3"></i></a>
                         </li>
                         <li class="list-inline-item me-4">
                             <a href="#!"><i class="bi-twitter fs-3"></i></a>

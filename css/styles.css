@@ -11619,3 +11619,8 @@ body.modal-open {
   color: green;
   display: none;
 }
+
+.bar-image img{
+  width:100%;
+  height: 100%;
+}
